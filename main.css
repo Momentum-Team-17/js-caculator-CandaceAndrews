@@ -1,41 +1,43 @@
-/* * {
-    border-color: black;
-    border-width: 2px;
-    border-style: solid;
-} */
-
 body {
     font-family: Open Sans;
-    margin: 0px;
 }
 
 .button_container {
-    /* display: grid; */
-    /* display: inline-block; */
-    height: auto;
-    width: 430px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px 100px;
+    gap: 7px;
+    background-color: rgb(74, 117, 94);
+    padding: 15px;
+    width: fit-content;
 }
 
-.button {
-    font-size: 50px;
-    border-color: black;
-    border-width: 2px;
-    border-style: solid;
-    display: inline-block;
+.button_container>div {
+    background-color: rgb(134, 181, 157);
     text-align: center;
-    justify-content: center;
-    margin: 0px;
-    height: 100px;
-    width: 100px;
-    color: white;
-    background-color: rgb(88, 154, 113);
+    padding: 20px 0;
+    font-size: 30px;
+    color: rgb(74, 117, 94);
 }
 
-#display_screen {
-    width: 300px;
-    height: 100px;
+#display {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    background-color: rgb(231, 237, 207);
 }
 
-.operator {
-    background-color: rgb(153, 216, 177);
+#add {
+    background-color: rgb(183, 221, 201);
+}
+
+#subtract {
+    background-color: rgb(183, 221, 201);
+}
+
+#multiply {
+    background-color: rgb(183, 221, 201);
+}
+
+#divide {
+    background-color: rgb(183, 221, 201);
 }
