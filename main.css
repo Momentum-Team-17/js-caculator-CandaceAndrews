@@ -1,18 +1,41 @@
-* {
+/* * {
     border-color: black;
     border-width: 2px;
     border-style: solid;
-}
+} */
 
 body {
     font-family: Open Sans;
     margin: 0px;
 }
 
-.regular_buttons {
+.button_container {
+    /* display: grid; */
+    /* display: inline-block; */
+    height: auto;
+    width: 430px;
+}
+
+.button {
+    font-size: 50px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
     margin: 0px;
     height: 100px;
     width: 100px;
     color: white;
     background-color: rgb(88, 154, 113);
+}
+
+#display_screen {
+    width: 300px;
+    height: 100px;
+}
+
+.operator {
+    background-color: rgb(153, 216, 177);
 }
