@@ -1,5 +1,6 @@
 body {
     font-family: Open Sans;
+    background-color: rgb(184, 145, 150);
 }
 
 .button_container {
@@ -12,18 +13,20 @@ body {
     width: fit-content;
 }
 
-.button_container>div {
+.button {
     background-color: rgb(134, 181, 157);
     text-align: center;
-    padding: 20px 0;
+    padding: 28px;
     font-size: 30px;
     color: rgb(74, 117, 94);
+    border-style: outset;
 }
 
 #display {
     grid-column-start: 2;
     grid-column-end: 5;
     background-color: rgb(231, 237, 207);
+    border: solid rgb(75, 75, 75) 1px;
 }
 
 #add {
