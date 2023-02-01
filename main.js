@@ -2,25 +2,14 @@
 let calSquares = document.querySelectorAll(".button");
 let displayScreen = document.querySelector('#display');
 
-
-
-// Display clicked number in console log and screen
-// for (let part of calSquares) {
-//     part.addEventListener("click", function (event) {
-//         // console.log(event.target.innerText)
-//         fullDisplay = []
-//         let userInput = event.target.innerText;
-//         displayScreen.innerText = userInput;
-//     }
-//     )
-
-// }
+//Displays the numbers in the calculator screen
 const fullDisplay = [];
 for (let part of calSquares) {
     part.addEventListener('click', function (event) {
         let userInput = event.target.innerText;
         fullDisplay.push(userInput);
-        console.log(fullDisplay)
+        // console.log(fullDisplay)
+        displayScreen.innerText = fullDisplay;
     }
     )
 }

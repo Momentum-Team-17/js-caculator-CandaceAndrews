@@ -20,6 +20,7 @@ body {
     font-size: 30px;
     color: rgb(74, 117, 94);
     border-style: outset;
+    border-radius: 8px;
 }
 
 #display {
@@ -27,6 +28,7 @@ body {
     grid-column-end: 5;
     background-color: rgb(231, 237, 207);
     border: solid rgb(75, 75, 75) 1px;
+    overflow: hidden;
 }
 
 #add {
