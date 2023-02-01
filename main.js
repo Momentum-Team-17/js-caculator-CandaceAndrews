@@ -27,5 +27,6 @@ equalSign.addEventListener('click', function (event) {
 
 clearButton.addEventListener('click', function (event) {
     displayScreen.innerText = "";
+    fullDisplay = [];
 }
 )
