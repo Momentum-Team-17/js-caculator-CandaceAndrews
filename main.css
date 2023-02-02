@@ -12,6 +12,7 @@ body {
     padding: 15px;
     width: fit-content;
     border-radius: 8px;
+    border-style: double;
 }
 
 .button {
@@ -30,8 +31,10 @@ body {
     background-color: rgb(231, 237, 207);
     border: solid rgb(75, 75, 75) 1px;
     overflow: hidden;
+    text-align: right;
 }
 
+/* 
 #add {
     background-color: rgb(183, 221, 201);
 }
@@ -46,4 +49,12 @@ body {
 
 #divide {
     background-color: rgb(183, 221, 201);
+} */
+
+.operator {
+    background-color: rgb(183, 221, 201);
+}
+
+.button:hover {
+    background-color: rgb(187, 241, 206);
 }

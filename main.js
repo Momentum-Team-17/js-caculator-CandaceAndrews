@@ -22,6 +22,10 @@ equalSign.addEventListener('click', function (event) {
     let answer = eval(displayScreen.innerText)
     console.log(answer)
     displayScreen.innerText = answer;
+    if (answer === undefined) {
+        displayScreen.innerText = ""
+        fullDisplay = [];
+    }
 }
 )
 
